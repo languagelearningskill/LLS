@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GAHS LLS - Govt APWA High School</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.png">
+<meta name="theme-color" content="#1a2e5c">
+<style>
+body{margin:0;font-family:sans-serif;background:#1a2e5c;color:white;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;text-align:center}
+.logo{width:180px;height:180px;border-radius:30px;background:white;padding:10px;box-shadow:0 10px 30px rgba(0,0,0,0.3)}
+h1{margin:20px 0 5px;font-size:28px}
+p{opacity:0.9;margin-bottom:30px}
+.btn{background:#ffcc00;color:#000;padding:15px 40px;border-radius:50px;text-decoration:none;font-weight:bold;font-size:18px;display:inline-block}
+.btn:active{transform:scale(0.95)}
+</style>
+</head>
+<body>
+<img src="icon.png" class="logo" alt="GAHS LLS">
+<h1>GAHS LLS</h1>
+<p>GOVT APWA HIGH SCHOOL<br>Language Learning Skill</p>
+<a href="lls.html" class="btn">Open LLS App 🚀</a>
+
+<script>
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+</body>
+  </html>
